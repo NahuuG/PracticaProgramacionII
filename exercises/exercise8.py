@@ -29,7 +29,7 @@ Definir un diccionario para las 'Compras' que contenga los siguiente valores:
 """
 
 # COMPLETAR - INICIO
-
+(Compras["Ezequiel Castello"] == ["ipad", "ipod", "iphone"])
 # COMPLETAR - FIN
 
 assert (
@@ -52,7 +52,7 @@ diccionario = {
 }
 
 # COMPLETAR - INICIO
-
+clave1 = diccionario.get("clave1")
 # COMPLETAR - FIN
 
 assert clave1 == 234
@@ -90,7 +90,7 @@ diccionario_3 = {
 }
 
 # COMPLETAR - INICIO
-
+keys = list(diccionario_3.keys())
 # COMPLETAR - FIN
 
 assert keys == ["clave1", "clave2", "clave3", "clave4"]
@@ -108,7 +108,7 @@ diccionario_4 = {
 }
 
 # COMPLETAR - INICIO
-
+values = list(diccionario_4.values())
 # COMPLETAR - FIN
 
 assert values == [1234, 4567, 8910, 1112]
